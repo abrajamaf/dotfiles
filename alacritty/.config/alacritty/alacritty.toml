@@ -1,0 +1,109 @@
+[env]
+TERM = "screen-256color"
+
+[window]
+opacity = 0.8
+blur = true
+startup_mode = "Windowed"
+dynamic_padding = true
+decorations = "Full"
+
+[window.padding]
+x = 4
+y = 4
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[mouse]
+hide_when_typing = true
+
+# Catppuccin Mocha
+[colors.primary]
+background = "#080808"
+foreground = "#cdd6f4"
+
+[colors.normal]
+black = "#45475a"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#f5c2e7"
+cyan = "#94e2d5"
+white = "#bac2de"
+
+[colors.bright]
+black = "#585b70"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#f5c2e7"
+cyan = "#94e2d5"
+white = "#a6adc8"
+
+[colors.dim]
+black = "#45475a"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#f5c2e7"
+cyan = "#94e2d5"
+white = "#bac2de"
+
+[colors.cursor]
+text = "#1e1e2e"
+cursor = "#f5e0dc"
+
+[colors.selection]
+text = "#1e1e2e"
+background = "#f5e0dc"
+
+[colors.search]
+matches = { foreground = "#1e1e2e", background = "#f38ba8" }
+focused_match = { foreground = "#1e1e2e", background = "#a6e3a1" }
+
+[colors.hints]
+start = { foreground = "#1e1e2e", background = "#f9e2af" }
+end = { foreground = "#1e1e2e", background = "#f9e2af" }
+
+[colors.line_indicator]
+foreground = "#585b70"
+background = "#1e1e2e"
+
+[colors.footer_bar]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
