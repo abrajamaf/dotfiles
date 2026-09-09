@@ -1,0 +1,25 @@
+onboarding = false
+
+[theme]
+name = "catppuccin"
+auto_switch = false
+
+[terminal]
+[update]
+[keys]
+prefix = "ctrl+space"
+[server]
+[ui]
+show_agent_labels_on_pane_borders = true
+agent_panel_sort = "priority"
+
+[ui.toast]
+
+[ui.toast.herdr]
+[ui.toast.clipboard]
+[ui.sound]
+[session]
+[remote]
+[experimental]
+# pane_history = false
+[advanced]
